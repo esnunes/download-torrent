@@ -1,14 +1,39 @@
 {
   "name": "download-torrent",
   "version": "1.0.0",
-  "description": "",
+  "description": "command line interface to download torrents based on magnet uri",
   "main": "lib/index.js",
   "bin": "bin/download-torrent.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Eduardo Nunes",
+    "email": "esnunes@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Eduardo Nunes",
+      "email": "esnunes@gmail.com"
+    }
+  ],
+  "keywords": [
+    "torrent",
+    "magnet"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/esnunes/download-torrent.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/esnunes/download-torrent/raw/master/LICENSE"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/esnunes/download-torrent/issues"
+  },
   "dependencies": {
     "commander": "^2.5.0",
     "progress": "^1.1.8",
