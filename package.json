@@ -1,0 +1,18 @@
+{
+  "name": "download-torrent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "bin": "bin/download-torrent.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.5.0",
+    "progress": "^1.1.8",
+    "rsvp": "^3.0.14",
+    "torrent-stream": "^0.16.2"
+  }
+}
